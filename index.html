@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="container" >
+    <div >
+        <h1 class="g1">Generate a <span class="s1">random password</span></h1>
+        <h2 class="g2">Never use an insecure password again.</h2>
+        <button class="password-btn" onclick="generatePassword()"> Generate passwords</button>
+    </div>
+    <div class="line-div">
+
+    </div>
+    <div id="btn-div">
+        <div class="rec">
+            <!-- <p>abcdefghijklmno</p> -->
+            <input type="text" value="" id="myInput1">
+            <button class="btn tooltip" onclick="clickAndCopy('myInput1','info1')"><span class="tooltiptext">Copy</span></button>
+            <!-- <div id="info1"></div> -->
+        </div>
+
+        <div id="xx" class="rec">
+            <!-- <p>abcdefghijklmno</p> -->
+            <input type="text" value="" id="myInput2">
+            <button class="btn tooltip" onclick="clickAndCopy('myInput2','info2')"><span class="tooltiptext">Copy</span></button>
+            <!-- <div id="info2"></div> -->
+        </div>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
