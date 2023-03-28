@@ -1,9 +1,5 @@
 body {
-    /* background-color: #064E3B; */
-    background-image: linear-gradient(to right, #ebf3f1 , #1f9e6b); 
-    background-size:cover;
-    background-repeat: no-repeat; 
-    /* margin: 0px; */
+    background-color: #064E3B;
 }
 
 #container {
